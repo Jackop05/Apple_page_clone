@@ -1,9 +1,8 @@
-import { useGSAP } from "@gsap/react"
-import { chipImg, frameImg, frameVideo } from "../utils"
-import gsap from "gsap"
-import { useRef } from "react"
-import { animateWithGsap } from "../utils/animations"
-
+import { useGSAP } from "@gsap/react";
+import { chipImg, frameImg, frameVideo } from "../utils";
+import gsap from "gsap";
+import { useRef } from "react";
+import { animateWithGsap } from "../utils/animations";
 
 
 
@@ -33,19 +32,19 @@ const HowItWorks = () => {
     return (
         <section className="common-padding">
             <div className="screen-max-width">
+
                 <div id="chip" className="flex-center w-full my-20">
-                    <img src={chipImg} alt="chip" width={180} height={180} />
+                    <img 
+                        src={chipImg} 
+                        alt="chip" 
+                        width={180} 
+                        height={180} 
+                    />
                 </div>
 
                 <div className="flex flex-col items-center">
-                    <h2 className="hiw-title">
-                        A17 Pro chip.
-                        <br /> A monster win for gaming.
-                    </h2>
-
-                    <p className="hiw-subtitle">
-                        It's here. The biggest redesign in the history of Apple GPUs.
-                    </p>
+                    <h2 className="hiw-title">A17 Pro chip.<br/>A monster win for gaming.</h2>
+                    <p className="hiw-subtitle">It's here. The biggest redesign in the history of Apple GPUs.</p>
                 </div>
 
                 <div className="mt-10 md:mt-20 mb-14">
@@ -63,7 +62,6 @@ const HowItWorks = () => {
                             </video>
                         </div>
                     </div>
-                    
                     <p className="text-gray font-semibold text-center mt-3">Honkai: Star Rail</p>
                 </div>
 
@@ -75,9 +73,8 @@ const HowItWorks = () => {
                             best graphic performance by far
                             </span>.
                         </p>
-
                         <p className="hiw-text g_fadeIn">
-                        Mobile {' '}
+                            Mobile {' '}
                             <span className="text-white">
                             games will look and feel so immersive
                             </span>,
@@ -91,9 +88,10 @@ const HowItWorks = () => {
                         <p className="hiw-text">with 6 cores</p>
                     </div>
                 </div>
+
             </div>
         </section>
     )
 }
 
-export default HowItWorks
+export default HowItWorks;

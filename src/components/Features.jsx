@@ -1,9 +1,8 @@
-import { useGSAP } from '@gsap/react'
-import React, { useRef } from 'react'
-import { animateWithGsap } from '../utils/animations'
-import { explore1Img, explore2Img, exploreVideo } from '../utils'
-import gsap from 'gsap'
-
+import { useGSAP } from '@gsap/react';
+import React, { useRef } from 'react';
+import { animateWithGsap } from '../utils/animations';
+import { explore1Img, explore2Img, exploreVideo } from '../utils';
+import gsap from 'gsap';
 
 
 
@@ -41,7 +40,14 @@ const Features = () => {
                     
                     <div className='flex-center flex-col sm:px-10'>
                         <div className='relative h-[50vh] w-full flex items-center'>
-                            <video playsInline id="exploreVideo" className='w-full h-full object-cover object-center' muted autoPlay ref={videoRef}>
+                            <video 
+                                playsInline 
+                                id="exploreVideo" 
+                                className='w-full h-full object-cover object-center' 
+                                muted 
+                                autoPlay 
+                                ref={videoRef}
+                            >
                                 <source src={exploreVideo} type="video/mp4" />
                             </video>
                         </div>
@@ -70,4 +76,4 @@ const Features = () => {
     )
 }
 
-export default Features
+export default Features;
