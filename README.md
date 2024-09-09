@@ -3,6 +3,8 @@
 ## 📝 Project Overview
 "AppleClone" is a modern web application inspired by the sleek design and functionality of Apple's ecosystem. Built with React and powered by Vite, this project showcases the integration of 3D graphics using Three.js and GSAP for smooth animations. Users can explore product showcases, view detailed information, and experience a visually captivating interface reminiscent of Apple's aesthetic. This application demonstrates my skills in front-end development, animation, and responsive design, making it an impressive addition to my portfolio.
 
+![image](https://github.com/user-attachments/assets/659903d8-4d4d-4b40-ad29-54b21952d0da)
+
 ## 💡 Features
 - **Dynamic Product Display:**  
   Users can browse a range of products displayed with interactive animations, creating an engaging shopping experience.
